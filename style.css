@@ -314,6 +314,83 @@ justify-content: center;
 }
 /* <!--customize Section  end  --> */
 
+/* <!-- Testimonial Section  strat --> */
+
+.testimonial-sec{
+    width: 100%;
+    padding: 80px 0;
+    background-image: url(images/background2.png);
+}
+
+.testimonial .title{
+    text-align: center;
+}
+.testimonial .title h5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    color:#008ed6
+}
+.testimonial .title h1{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+   
+ 
+}
+
+/* <!-- carousel slide --> */
+
+.carousel-item-testimonial{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 60px 0;
+}
+
+.testimonial-left h4{
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 24px;
+    color: #fff;
+}
+
+.testimonial-right h4{
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 24px;
+    color: #fff;
+}
+
+
+.testimonial-profile h5{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+    color:#fff;
+    margin: 2px 0;
+  
+}
+.testimonial-profile p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    color:#fff;
+    margin: 0px;
+    
+
+}
+/* <!-- carousel slide --> */
+
+
+/* <!-- Testimonial Section  end --> */
+
 /* great theme Section  strat */
 
 .great-theme-sec{
@@ -393,3 +470,29 @@ width: 60%;
     border-radius: 3px;
 }
 /* great theme Section  end */
+
+/* <!-- Pricings & Plans Section  strat --> */
+
+.pricing{
+    width: 100%;
+    padding: 80px 0;
+}
+
+.pricing-sec .title{
+    text-align: center;
+}
+.pricing-sec .title h5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    color:#008ed6
+}
+.pricing-sec .title h1{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+   
+ 
+}
+/* <!-- Pricings & Plans Section  end --> */
