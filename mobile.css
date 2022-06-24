@@ -1,0 +1,138 @@
+/* Extra small devices (phones, 600px and down) */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* Header Section Start  */
+header {
+    width: 100%;
+    background: url(./images/lucid_onepage_source1.png) center top no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+ 
+  .menu-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* padding: 20px 0; */
+  }
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .nav-bar a {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color:#fff;
+  }
+
+
+.banner-section{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0;
+    display: flex;
+}
+.left-side{
+    width: 50%;
+}
+/* .right-side{
+    width: 50%;
+} */
+
+.banner-section h5{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 20px;
+    color: #008ed6;
+    margin-bottom: 0.5rem;
+
+}
+.banner-section h2{
+    font-size: 28px;
+    text-transform: capitalize;
+    line-height: 35px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20PX;
+}
+.banner-section p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #999999;
+   
+}
+
+.inner-btn{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+  }
+  .inner-btn a{
+    text-decoration: none;
+  }
+  
+  .dwnld-btn{
+    font-size: 14px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #008ed6;
+    border-color: #008ed6;
+    border-radius: 3px;
+    padding: 10px 20px;
+    transition: 1s;
+    border: 1px solid #008ed6;
+  }
+  .dwnld-btn:hover{
+    font-size: 14px;
+    color:#008ed6;
+    background-color:transparent!important;
+    border:1px solid #008ed6;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+  .view-btn{
+    font-size: 14px;
+    color: #fff;
+    background-color:transparent;
+    border:1px solid #454449;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.view-btn:hover{
+    font-size: 14px;
+    margin-right: 10px;
+    color: #fff;
+    background-color:#008ed6;
+    border-color: #008ed6;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+  /* Header Section End  */
