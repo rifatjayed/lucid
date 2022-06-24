@@ -230,7 +230,8 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
-.left-area{
+.left-area img{
+width: 80%;
 
 }
 .right-area{
