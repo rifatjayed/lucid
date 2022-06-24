@@ -610,11 +610,19 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
   
 }
 .contact-sec .contact-address .contact-info {
     text-align: center;
-    margin: 35px 0;
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
     
 }
 .contact-sec .contact-address .contact-info i{
