@@ -20,13 +20,15 @@ header {
     height: 100vh;
   }
   
+  .menu-sec{
+    display: none;
+  }
  
-  .menu-sec {
+  /* .menu-sec {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    /* padding: 20px 0; */
   }
   .nav-bar {
     display: flex;
@@ -44,7 +46,7 @@ header {
     font-size: 14px;
     text-transform: uppercase;
     color:#fff;
-  }
+  } */
 
 
 .banner-section{
@@ -136,3 +138,526 @@ header {
 }
 
   /* Header Section End  */
+
+
+  /* <!--PRODUCT OVERVIEW Section  Start --> */
+
+.features-section{
+    width: 100%;
+}
+.features-section .title{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.features-section .title h5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: uppercase;
+    color:#008ed6
+}
+.features-section .title h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22px;
+    
+
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 42px 135px; */
+    width: 100%;
+    padding: 30px 0;
+  }
+  
+.item-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 50%;
+    /* width: 270px;
+    height: 270px; */
+}
+
+.item-box p{
+    text-align: center;
+}
+
+.info .item-box .fa{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    font-size: 35px;
+    color: #008ed6;
+    margin-bottom: 10px;
+}
+.info .item-box h2{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 5px;
+
+}
+.info .item-box p{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500px;
+    color: #999999;
+    margin: 10px 0;
+}
+
+/* <!--PRODUCT OVERVIEW Section End  --> */
+
+/* <!--THE DETAILS Section  Strat --> */
+
+.details-sec{
+    width:100%;
+    padding: 30px 0;
+}
+
+.beautiful{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-area{
+
+}
+.right-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   /* margin-left: 70px ; */
+}
+.right-area h5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    color:#008ed6;
+}
+
+.right-area h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.right-area p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500px;
+    color: #999999;
+    /* margin: 10px 0; */
+    /* padding: 20px 0; */
+}
+
+.icon-box .icon{
+    padding: 10px 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* <!--THE DETAILS Section End --> */
+
+/* <!--customize Section  strat  --> */
+
+.customize-sec{
+    width: 100%;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+/* .customize-desc{
+    display: flex;
+    flex-wrap: wrap;
+ 
+
+} */
+.customize-right{
+/* width: 50%; */
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+.customize-right img{
+    width: 80%;
+}
+.customize-left{
+    text-align: center;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.customize-left .title h5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    color:#008ed6;
+}
+
+.customize-left .title h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.customize-left p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500px;
+    color: #999999;
+    /* margin: 10px 0; */
+    padding: 10px 0;
+}
+/* <!--customize Section  end  --> */
+
+/* <!-- Testimonial Section  strat --> */
+
+.testimonial-sec{
+    width: 100%;
+    padding: 30px 0;
+    background-image: url(images/background2.png);
+}
+
+.testimonial .title{
+    text-align: center;
+}
+.testimonial .title h5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    color:#008ed6
+}
+.testimonial .title h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #fff;
+   
+ 
+}
+
+/* <!-- carousel slide --> */
+
+.carousel-item-testimonial{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 60px 20px;
+}
+
+.testimonial-left h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 20px;
+    color: #fff;
+}
+
+.testimonial-right h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 20px;
+    color: #fff;
+}
+
+
+.testimonial-profile h5{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: capitalize;
+    color:#fff;
+    margin: 2px 0;
+  
+}
+.testimonial-profile p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    color:#fff;
+    margin: 0px;
+    
+
+}
+/* <!-- carousel slide --> */
+
+
+/* <!-- Testimonial Section  end --> */
+
+/* great theme Section  strat */
+
+.great-theme-sec{
+    background: #15141a;
+    padding: 40px 0;
+}
+.great-theme-desc{
+    display: flex;
+    align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.great-theme-desc .theme-left{
+padding: 25px 0;
+text-align: center;
+}
+
+.great-theme-desc .theme-right{
+   
+}
+
+.theme-left h1{
+    font-size: 26px;
+  
+    line-height: 25px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.theme-left span{
+    font-size: 26px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.inner-btn2 a{
+    text-decoration: none;
+  }
+  
+  .dwnld-btn2{
+    font-size: 16px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #008ed6;
+    border-color: #008ed6;
+    border-radius: 3px;
+    padding: 10px 35px;
+    transition: 1s;
+    border: 1px solid #008ed6;
+  }
+  .dwnld-btn2:hover{
+    font-size: 16px;
+    color:#008ed6;
+    background-color:transparent!important;
+    border:1px solid #008ed6;
+    padding: 10px 35px;
+    border-radius: 3px;
+}
+
+  .view-btn2{
+    font-size: 16px;
+    color: #fff;
+    background-color:transparent;
+    border:1px solid #454449;
+    padding: 10px 35px;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.view-btn2:hover{
+    font-size: 16px;
+    margin-right: 10px;
+    color: #fff;
+    background-color:#008ed6;
+    border-color: #008ed6;
+    padding: 10px 35px;
+    border-radius: 3px;
+}
+/* great theme Section  end */
+
+/* <!-- Pricings & Plans Section  strat --> */
+
+.pricing{
+    width: 100%;
+    padding: 30px 0;
+}
+
+.pricing .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pricing .title h5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    color:#008ed6
+}
+.pricing .title h1{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.card{
+
+}
+.card-header{
+ background: #fff;
+}
+
+.card-header h2{
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+   text-align: center;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.card-body{
+text-align: center;
+}
+.card-body .card-price{
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    text-align: center;
+}
+.card-body .card-price h5{
+    margin: 0px;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.card-body .card-price sup{
+    top: -14px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.card-body .card-price p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500px;
+    color: #999;
+}
+.card-desc p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500px;
+    color: #999;
+    margin: 10px 0px 0px;
+    padding: 1.2rem;
+    text-align: center;
+}
+.card-body .btn{
+   text-align: center;
+    font-size: 16px;
+    margin:30px 0;
+    color: #008ed6;
+    background-color: transparent;
+    border-color: #999;
+    border-radius: 3px;
+    padding: 10px 35px;
+    transition: 1s;
+}
+/* <!-- Pricings & Plans Section  end --> */
+
+/* contact section start */
+.contact{
+    width: 100%;
+	background: #ededed;
+	padding: 30px 0;
+}
+
+.contact-sec .title{
+    text-align: center;
+}
+
+.contact-sec .title h5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    color:#008ed6
+}
+.contact-sec .title h1{
+    font-size: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.contact-sec .contact-address{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.contact-sec .contact-address .contact-info {
+    text-align: center;
+    margin: 35px 0;
+    
+}
+.contact-sec .contact-address .contact-info i{
+    margin-bottom: 10px;
+	color: #008ed6;
+	font-size: 24px;
+}
+.contact-sec .contact-address .contact-info p{
+	color: #999;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+}
+/* contact section end */
+
+/* footer section strat */
+
+footer{
+    width: 100%;
+	background: #15141a;
+	padding: 40px 0 20px;
+}
+.social-media{
+    text-align: center;
+}
+.social-media a{
+	color: #444348;
+	margin-left: 5px;
+	margin-right: 20px;
+	font-size: 18px;
+	transition: 1s;
+	line-height: 24px;
+}
+.social-media a:hover{
+    color: #008ed6;
+}
+.social-media p{
+    color: #444348;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-right: 8px;
+	margin-top: 10px;
+}
+
+
+
+/* footer section end */
+
