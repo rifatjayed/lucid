@@ -230,6 +230,9 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
+.left-area {
+    text-align: center;
+}
 .left-area img{
 width: 80%;
 
