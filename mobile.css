@@ -56,7 +56,11 @@ header {
     display: flex;
 }
 .left-side{
-    width: 80%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
 /* .right-side{
     width: 50%;
