@@ -56,7 +56,7 @@ header {
     display: flex;
 }
 .left-side{
-    width: 70%;
+    width: 80%;
 }
 /* .right-side{
     width: 50%;
@@ -515,8 +515,13 @@ text-align: center;
     font-weight: 600;
     line-height: 24px;
 }
-
+.crd-bdy{
+ display: flex;
+justify-content: center;
+align-items: center;   
+}
 .card{
+width: 80%;
 
 }
 .card-header{
