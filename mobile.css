@@ -57,15 +57,19 @@ header {
 }
 .left-side{
     width: 60%;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; */
 
 }
 /* .right-side{
     width: 50%;
 } */
-
+.banner-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .banner-section h5{
     font-size: 14px;
     font-weight: bold;
